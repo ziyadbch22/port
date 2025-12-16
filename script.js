@@ -234,7 +234,7 @@ class Portfolio {
             category: "web",
             description: "Site web interactif sur l'univers Harry Potter avec exploration des maisons, personnages et sorts. Intégration d'une API Harry Potter pour les données dynamiques.",
             technologies: ["HTML5", "CSS3", "JavaScript", "API REST", "Fetch API"],
-            image: "https://raw.githubusercontent.com/ziyadbch22/Portfolio2026/main/portfolio26%20-%20Copie/assets/projets/harrypotter.png",
+            image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/hp.png",
             links: {
                 live: "",
                 github: "https://github.com/ziyadbch22/harry-potter-universe"
@@ -729,4 +729,5 @@ notificationStyles.textContent = `
         }
     }
 `;
+
 document.head.appendChild(notificationStyles);
