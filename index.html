@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="fr" class="smooth-scroll">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ziyad BOUIBCHA | Portfolio BTS SLAM</title>
+
+    <!-- Meta SEO -->
+    <meta
+      name="description"
+      content="Portfolio professionnel de Ziyad BOUIBCHA, étudiant en BTS SLAM spécialisé développement web et applications métier."
+    />
+    <meta
+      name="keywords"
+      content="développeur web, BTS SIO, SLAM, portfolio, étudiant informatique, Paris"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="#" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Préload -->
+    <link rel="preload" href="style.css" as="style" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Chargement...</div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#hero" class="nav-logo" data-scroll>
+          <span class="logo-text">ZB</span>
+          <span class="logo-name"
+            >Ziyad<span class="logo-highlight">BOUIBCHA</span></span
+          >
+        </a>
+
+        <!-- Menu Desktop -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-scroll>À propos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link" data-scroll>Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link" data-scroll>Expérience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link" data-scroll>Projets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link" data-scroll>Formation</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-scroll>Contact</a>
+          </li>
+        </ul>
+
+        <!-- Actions -->
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Changer de thème"
+          >
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="nav-toggle" id="navToggle" aria-label="Menu mobile">
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+          </button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="nav-mobile" id="navMobile">
+          <div class="mobile-header">
+            <span class="mobile-logo">ZB</span>
+            <button class="mobile-close" id="mobileClose">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <ul class="mobile-menu">
+            <li>
+              <a href="#about" class="mobile-link" data-scroll>À propos</a>
+            </li>
+            <li>
+              <a href="#skills" class="mobile-link" data-scroll>Compétences</a>
+            </li>
+            <li>
+              <a href="#experience" class="mobile-link" data-scroll
+                >Expérience</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="mobile-link" data-scroll>Projets</a>
+            </li>
+            <li>
+              <a href="#education" class="mobile-link" data-scroll>Formation</a>
+            </li>
+            <li>
+              <a href="#contact" class="mobile-link" data-scroll>Contact</a>
+            </li>
+          </ul>
+          <div class="mobile-footer">
+            <a href="mailto:ziyadbouibcha@gmail.com" class="mobile-email"
+              >ziyadbouibcha@gmail.com</a
+            >
+            <div class="mobile-social">
+              <a
+                href="https://github.com/ziyadbch22"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ziyadbouibcha/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-background">
+        <div class="hero-shape shape-1"></div>
+        <div class="hero-shape shape-2"></div>
+        <div class="hero-shape shape-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <!-- Badge -->
+          <div class="hero-badge">
+            <span class="badge-text">Étudiant BTS SLAM</span>
+          </div>
+
+          <!-- Titre principal -->
+          <h1 class="hero-title">
+            <span class="title-line">Bonjour, je suis</span>
+            <span class="title-name"
+              >Ziyad <span class="name-highlight">BOUIBCHA</span></span
+            >
+            <span class="title-sub">Développeur Web & Applications</span>
+          </h1>
+
+          <!-- Description -->
+          <p class="hero-description">
+            Passionné par le développement logiciel, je suis actuellement en
+            deuxième année de BTS SIO option SLAM au Lycée Le Rebours à Paris.
+            Je crée des solutions web modernes et performantes.
+          </p>
+
+          <!-- CTA -->
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" data-scroll>
+              <span class="btn-text">Me contacter</span>
+              <i class="fas fa-arrow-right btn-icon"></i>
+            </a>
+            <a href="#projects" class="btn btn-secondary" data-scroll>
+              <span class="btn-text">Voir mes projets</span>
+            </a>
+          </div>
+
+          <!-- Stats -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">0</span>
+              <span class="stat-label">Projets réalisés</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="2">0</span>
+              <span class="stat-label">Stages effectués</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="8">0</span>
+              <span class="stat-label">Technologies maîtrisées</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo/Illustration -->
+        <div class="hero-visual">
+          <div class="visual-container">
+            <div class="visual-main">
+              <div class="code-snippet">
+                <div class="code-header">
+                  <span class="code-dot red"></span>
+                  <span class="code-dot yellow"></span>
+                  <span class="code-dot green"></span>
+                  <span class="code-title">portfolio.js</span>
+                </div>
+                <pre class="code-content"><code>const developer = {
+  name: "Ziyad BOUIBCHA",
+  role: "Développeur Full-Stack",
+  skills: ["Java", "PHP", "JavaScript", "SQL"],
+  location: "Paris, France",
+  status: "Étudiant BTS SLAM"
+};</code></pre>
+              </div>
+            </div>
+            <div class="visual-dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" data-scroll>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span class="scroll-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">À propos</span>
+          <h2 class="section-title">Mon parcours & objectifs</h2>
+          <p class="section-subtitle">
+            Découvrez mon parcours académique et professionnel dans le
+            développement web
+          </p>
+        </div>
+
+        <div class="about-content">
+          <!-- About Card -->
+          <div class="about-card">
+            <div class="card-header">
+              <div class="card-icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <h3 class="card-title">Étudiant BTS SIO SLAM</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Je suis actuellement en deuxième année de BTS Services
+                Informatiques aux Organisations, option Solutions Logicielles et
+                Applications Métiers.
+              </p>
+
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Spécialisation développement web</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Projets concrets en entreprise</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Formation technique intensive</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#education" class="card-link" data-scroll>
+                Voir ma formation
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Goals Card -->
+          <div class="about-card">
+            <div class="card-header">
+              <div class="card-icon">
+                <i class="fas fa-bullseye"></i>
+              </div>
+              <h3 class="card-title">Objectifs professionnels</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Je souhaite poursuivre en licence informatique après mon BTS,
+                puis me spécialiser en cybersécurité via un master pour devenir
+                expert en sécurité des applications.
+              </p>
+
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-date">2024-2026</div>
+                  <div class="timeline-content">
+                    <h4>BTS SIO SLAM</h4>
+                    <p>Formation aux bases du développement logiciel</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-date">2026-2027</div>
+                  <div class="timeline-content">
+                    <h4>Licence Informatique</h4>
+                    <p>Approfondissement des compétences techniques</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-date">2027-2029</div>
+                  <div class="timeline-content">
+                    <h4>Master Cybersécurité</h4>
+                    <p>Spécialisation en cybersécurité</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">Mes compétences techniques</h2>
+          <p class="section-subtitle">
+            Technologies et outils que j'utilise pour créer des solutions
+            modernes
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="category-title">Langages de programmation</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item" data-skill="HTML5" data-level="90">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="CSS3" data-level="85">
+                <div class="skill-info">
+                  <span class="skill-name">PHP</span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="JavaScript" data-level="80">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="React" data-level="70">
+                <div class="skill-info">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3 class="category-title">Bases de données</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item" data-skill="PHP" data-level="75">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="Node.js" data-level="65">
+                <div class="skill-info">
+                  <span class="skill-name"></span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="Java" data-level="70">
+                <div class="skill-info">
+                  <span class="skill-name"></span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="Python" data-level="60">
+                <div class="skill-info">
+                  <span class="skill-name"></span>
+                  <span class="skill-level"></span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Databases & Tools -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3 class="category-title">Outils & Environnements de développement</h3>
+            </div>
+            <div class="tools-grid">
+              <div class="tool-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="tool-item">
+                <i class="fas fa-database"></i>
+                <span>MySQL</span>
+              </div>
+              <div class="tool-item">
+                <i class="fab fa-docker"></i>
+                <span>Docker</span>
+              </div>
+
+              <div class="tool-item">
+                <i class="fas fa-terminal"></i>
+                <span>VS Code</span>
+              </div>
+              <div class="tool-item">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Expérience</span>
+          <h2 class="section-title">Mes stages professionnels</h2>
+          <p class="section-subtitle">
+            Expériences en entreprise dans le développement web
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Stage 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-circle"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">Mai - Juin 2025</span>
+                <span class="timeline-badge">Stage 1ère année</span>
+              </div>
+              <h3 class="timeline-title">Développeur Web</h3>
+              <h4 class="timeline-subtitle">Jos Medical Export • Paris</h4>
+              <div class="timeline-description">
+                <p>
+                  Participation à la refonte du site web corporate avec les
+                  technologies suivantes :
+                </p>
+                <ul>
+                  <li>
+                    Développement front-end avec HTML5, CSS3 et JavaScript
+                  </li>
+                  <li>Back-end en PHP </li>
+                  <li>Amélioration UX/UI et responsive design</li>
+                </ul>
+              </div>
+              <div class="timeline-tech">
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stage 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-circle"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">Janv - Fév 2026</span>
+                <span class="timeline-badge">Stage 2ème année</span>
+              </div>
+              <h3 class="timeline-title">Développeur Web Full-Stack</h3>
+              <h4 class="timeline-subtitle">Help94 • Paris</h4>
+              <div class="timeline-description">
+                <p>Développement d'une site web :</p>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="timeline-tech">
+                <span class="tech-tag"></span>
+                <span class="tech-tag"></span>
+                <span class="tech-tag"></span>
+                <span class="tech-tag"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Mes projets récents</h2>
+          <p class="section-subtitle">
+            Applications et sites web développés durant ma formation
+          </p>
+        </div>
+
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="app">Applications</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Les projets seront injectés par JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Formation</span>
+          <h2 class="section-title">Parcours académique</h2>
+          <p class="section-subtitle">Mon parcours d'études en informatique</p>
+        </div>
+
+        <div class="education-cards">
+          <div class="edu-card">
+            <div class="edu-header">
+              <div class="edu-year">2024 - 2026</div>
+              <div class="edu-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+            </div>
+            <div class="edu-body">
+              <h3 class="edu-title">BTS SIO - Option SLAM</h3>
+              <h4 class="edu-subtitle">Lycée Polyvalent Le Rebours, Paris</h4>
+              <p class="edu-description">
+                Formation intensive en développement logiciel, solutions
+                applicatives et gestion de projet informatique.
+              </p>
+            </div>
+            <div class="edu-footer">
+              <div class="edu-tags">
+                <span class="edu-tag">Développement Web</span>
+                <span class="edu-tag">Base de données</span>
+                <span class="edu-tag">Cybersécurité</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-header">
+              <div class="edu-year">2023 - 2024</div>
+              <div class="edu-icon">
+                <i class="fas fa-book"></i>
+              </div>
+            </div>
+            <div class="edu-body">
+              <h3 class="edu-title">BTS Comptabilité Gestion</h3>
+              <h4 class="edu-subtitle">Lycée Le Rebours, Paris</h4>
+              <p class="edu-description">
+                Année de découverte des métiers de la gestion avant de me
+                réorienter vers l'informatique.
+              </p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-header">
+              <div class="edu-year">2023</div>
+              <div class="edu-icon">
+                <i class="fas fa-school"></i>
+              </div>
+            </div>
+            <div class="edu-body">
+              <h3 class="edu-title">Baccalauréat Sciences Physique-Chimie</h3>
+              <h4 class="edu-subtitle">Assilah, Maroc</h4>
+              <p class="edu-description">
+                Formation scientifique avec spécialisation en physique-chimie,
+                mention bien.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Veille Technologique -->
+<section class="section veille" id="veille">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Veille</span>
+            <h2 class="section-title">Veille Technologique</h2>
+            <p class="section-subtitle">
+                Surveillance des évolutions techniques et innovations en intelligence artificielle
+            </p>
+        </div>
+
+        <div class="veille-intro">
+            <div class="intro-card">
+                <div class="intro-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="intro-content">
+                    <h3>Sujet de ma veille : "L'IA va-t-elle remplacer les développeurs ?"</h3>
+                    <p>Cette veille technologique analyse l'impact de l'intelligence artificielle sur les métiers du développement logiciel. J'explore comment les outils d'IA comme GitHub Copilot, ChatGPT et autres assistants de code transforment notre façon de travailler.</p>
+                </div>
+            </div>
+
+            <div class="veille-topics">
+                <div class="topic">
+                    <h4><i class="fas fa-filter"></i> Catégories</h4>
+                    <div class="categories">
+                        <span class="category-badge">Définition IA</span>
+                        <span class="category-badge">Impact métier</span>
+                        <span class="category-badge">Avenir</span>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4><i class="fas fa-tools"></i> Outils utilisés</h4>
+                    <div class="tools-list">
+                        <span>Feedly</span>
+                        <span>Google Alert</span>
+                        <span>Twitter/X</span>
+                        <span>Newsletters</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grille des articles (10 emplacements) -->
+        <div class="veille-grid">
+            <!-- Article 1 -->
+            <article class="article-card" data-category="definition">
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop" alt="IA et développement">
+                    <span class="article-category">Définition IA</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">À compléter</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 1</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Cet article traite de l'impact de l'IA sur le développement logiciel.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lire l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card" data-category="impact">
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop" alt="GitHub Copilot">
+                    <span class="article-category">Impact métier</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">À compléter</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 2</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Comment les outils d'IA changent le travail des développeurs.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lire l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-card" data-category="future">
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop" alt="Avenir du développement">
+                    <span class="article-category">Avenir</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">À compléter</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 3</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. L'avenir des développeurs face à l'IA générative.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lire l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="article-card" data-category="definition">
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop" alt="IA générative">
+                    <span class="article-category">Définition IA</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">À compléter</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 4</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Comprendre l'IA générative et ses applications.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lire l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="article-card" data-category="impact">
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop" alt="Productivité">
+                    <span class="article-category">Impact métier</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">À compléter</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 5</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. L'IA augmente-t-elle la productivité des devs ?</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lire l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Articles 6 à 10 (templates vides) -->
+            <article class="article-card template" data-category="future">
+                <div class="article-image template-img">
+                    <div class="placeholder-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span class="article-category">À catégoriser</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">Date</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 6</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Double-cliquez pour éditer ce texte.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lien vers l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card template" data-category="definition">
+                <div class="article-image template-img">
+                    <div class="placeholder-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span class="article-category">À catégoriser</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">Date</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 7</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Double-cliquez pour éditer ce texte.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lien vers l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card template" data-category="impact">
+                <div class="article-image template-img">
+                    <div class="placeholder-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span class="article-category">À catégoriser</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">Date</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 8</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Double-cliquez pour éditer ce texte.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lien vers l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card template" data-category="future">
+                <div class="article-image template-img">
+                    <div class="placeholder-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span class="article-category">À catégoriser</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">Date</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 9</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Double-cliquez pour éditer ce texte.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lien vers l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card template" data-category="definition">
+                <div class="article-image template-img">
+                    <div class="placeholder-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span class="article-category">À catégoriser</span>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">Date</span>
+                        <span class="article-source">Source</span>
+                    </div>
+                    <h3 class="article-title">Titre de l'article 10</h3>
+                    <p class="article-excerpt">Résumé à écrire ici. Double-cliquez pour éditer ce texte.</p>
+                    <a href="#" class="article-link" target="_blank">
+                        Lien vers l'article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Note d'information -->
+        <div class="veille-note">
+            <p><i class="fas fa-info-circle"></i> Cette section présente 10 articles de ma veille technologique sur l'IA. Double-cliquez sur les textes pour les modifier directement.</p>
+        </div>
+    </div>
+</section>
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">Travaillons ensemble</h2>
+          <p class="section-subtitle">
+            N'hésitez pas à me contacter pour discuter de vos projets
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h3 class="info-title">Email</h3>
+                <a href="mailto:ziyadbouibcha@gmail.com" class="info-link"
+                  >ziyadbouibcha@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3 class="info-title">Localisation</h3>
+                <p class="info-text">Paris, France</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="info-content">
+                <h3 class="info-title">GitHub</h3>
+                <a
+                  href="https://github.com/ziyadbch22"
+                  target="_blank"
+                  class="info-link"
+                  >github.com/ziyadbch22</a
+                >
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="info-content">
+                <h3 class="info-title">LinkedIn</h3>
+                <a
+                  href="https://www.linkedin.com/in/ziyadbouibcha/"
+                  target="_blank"
+                  class="info-link"
+                  >linkedin.com/in/ziyadbouibcha</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Nom complet *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Sujet *</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span class="btn-text">Envoyer le message</span>
+                <i class="fas fa-paper-plane btn-icon"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#hero" class="footer-logo">ZB</a>
+            <p class="footer-text">
+              Développeur web passionné par la création de solutions innovantes
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h3 class="footer-title">Navigation</h3>
+            <ul class="footer-menu">
+              <li><a href="#about" data-scroll>À propos</a></li>
+              <li><a href="#skills" data-scroll>Compétences</a></li>
+              <li><a href="#projects" data-scroll>Projets</a></li>
+              <li><a href="#contact" data-scroll>Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h3 class="footer-title">Réseaux</h3>
+            <div class="social-icons">
+              <a
+                href="https://github.com/ziyadbch22"
+                target="_blank"
+                class="social-icon"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ziyadbouibcha/"
+                target="_blank"
+                class="social-icon"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="mailto:ziyadbouibcha@gmail.com"
+                class="social-icon"
+                aria-label="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">© 2024 Ziyad BOUIBCHA. Tous droits réservés.</p>
+          <p class="footer-note">Portfolio BTS SIO SLAM - Lycée Le Rebours</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
