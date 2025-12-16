@@ -218,7 +218,7 @@ class Portfolio {
             category: "web",
             description: "Site vitrine responsive pour une entreprise spécialisée dans la construction et l'entretien de piscines. Présentation des services, galerie et formulaire de contact.",
             technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Form Validation"],
-            image: "",
+            image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/sa.png",
             links: {
                 live: "#",
                 github: "https://github.com/ziyadbch22/site-piscine"
@@ -727,4 +727,5 @@ notificationStyles.textContent = `
 `;
 
 document.head.appendChild(notificationStyles);
+
 
