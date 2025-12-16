@@ -235,7 +235,7 @@ class Portfolio {
             image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/hp.png",
             links: {
                 live: "",
-                github: "https://github.com/ziyadbch22/harry-potter-universe"
+                github: "https://github.com/ziyadbch22/HarryPotter"
             }
         },
 
@@ -265,7 +265,7 @@ class Portfolio {
             image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/qz.png",
             links: {
                 live: "#",
-                github: "https://github.com/ziyadbch22/quiz-culture-generale"
+                github: "https://github.com/ziyadbch22/QuizGame"
             }
         },
                 {
@@ -278,7 +278,7 @@ class Portfolio {
             image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/js.png",
             links: {
                 live: "#",
-                github: "https://github.com/ziyadbch22/josmedical"
+                github: "https://josmedical.com/"
             }
         }
         ,
@@ -727,5 +727,6 @@ notificationStyles.textContent = `
 `;
 
 document.head.appendChild(notificationStyles);
+
 
 
