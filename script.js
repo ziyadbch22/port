@@ -211,7 +211,6 @@ class Portfolio {
     // ===== PROJETS =====
     setupProjects() {
     const projectsData = [
-        // ===== PROJET 1 : Site Harry Potter =====
                 {
             id: 1,
             title: "Site Vitrine - Entreprise de Piscines",
@@ -226,7 +225,6 @@ class Portfolio {
             }
         },
         
-        // ===== PROJET 2 : Quiz Culture Générale Java =====
                 {
             id: 2,
             title: "Univers Harry Potter - Site Interactif",
@@ -242,7 +240,6 @@ class Portfolio {
         },
 
         
-        // ===== PROJET 3 : Site Vitrine Piscine =====
                 {
             id: 3,
             title: "Site Restaurant - WordPress",
@@ -258,7 +255,6 @@ class Portfolio {
         },
 
         
-        // ===== PROJET 4 : Site WordPress Restaurant =====
         {
             id: 4,
             title: "Quiz Culture Générale - Application Java",
@@ -266,7 +262,7 @@ class Portfolio {
             category: "java",
             description: "Application desktop Java avec interface graphique pour un quiz de culture générale. Gestion des scores, timer et sauvegarde des résultats.",
             technologies: ["Java", "Java Swing", "JDBC", "MySQL", "POO"],
-            image: "assets/projects/quiz.png",
+            image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/qz.png",
             links: {
                 live: "#",
                 github: "https://github.com/ziyadbch22/quiz-culture-generale"
@@ -279,7 +275,7 @@ class Portfolio {
             category: "web",
             description: "Refonte du site vitrine avec gestion des produits médicaux et formulaire de contact.",
             technologies: ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
-            image: "https://images.unsplash.com/photo-1586773860418-dc22f8b874bc?w=400&h=300&fit=crop",
+            image: "https://raw.githubusercontent.com/ziyadbch22/port/main/projets/js.png",
             links: {
                 live: "#",
                 github: "https://github.com/ziyadbch22/josmedical"
@@ -731,3 +727,4 @@ notificationStyles.textContent = `
 `;
 
 document.head.appendChild(notificationStyles);
+
